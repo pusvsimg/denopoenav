@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## 项目介绍
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/bbylw/PicGo@master/20241220015300647.png" alt="WebNav Hub Preview" width="100%">
+</div>
 WebNav Hub 是一个简洁、快速、可定制的导航网站，旨在帮助您组织和访问常用的网络资源。它采用现代化的 UI 设计，响应式布局，并使用 Deno 构建，以实现出色的性能和安全性。
 
 **主要特点：**
