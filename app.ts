@@ -28,10 +28,11 @@ async function handler(req: Request): Promise<Response> {
         file = await Deno.readFile("./script.js");
         contentType = "application/javascript; charset=utf-8";
         break;
-      case "/favicon.ico":
-        file = await Deno.readFile("./favicon.ico");
-        contentType = "image/x-icon";
-        break;
+      // 移除 favicon.ico 处理
+      // case "/favicon.ico":
+      //   file = await Deno.readFile("./favicon.ico");
+      //   contentType = "image/x-icon";
+      //   break;
       default:
         // 对于其他请求，返回 404
         return new Response("Not Found", { status: 404 });
