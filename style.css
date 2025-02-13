@@ -11,7 +11,20 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; /* Web/* style.css */
+:root {
+  --primary-color: #ff9000;
+  --bg-color: #0d0d0d;
+  --card-bg-color: #1a1a1a;
+  --text-color: #fff;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Web-Safe 字体 */
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -34,7 +47,6 @@ header h1 {
 }
 
 nav {
-  background-color: var(--card-bgnav {
   background-color: var(--card-bg-color);
   padding: 0.5rem;
   position: sticky;
